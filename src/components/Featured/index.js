@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from './Carousel';
+import CountdownTimer from './CountdownTimer';
 
 const Featured = () => {
   return (
@@ -10,6 +11,7 @@ const Featured = () => {
           Ariana Grande
         </div>
       </div>
+      <CountdownTimer/>
     </div>
   );
 };
