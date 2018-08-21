@@ -4,7 +4,7 @@ import '../resources/styles.css';
 import Header from './Header_Footer/Header';
 import Featured from './Featured';
 import VenueNFO from './VenueNFO';
-
+import Highlights from './Highlights'
 
 class App extends Component {
   render() {
@@ -13,6 +13,7 @@ class App extends Component {
         <Header/>
         <Featured/>
         <VenueNFO/>
+        <Highlights/>
       </div>
     );
   }
