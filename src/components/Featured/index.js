@@ -8,7 +8,7 @@ const Featured = () => {
     <Carousel/>
       <div className="artist_name">
         <div className="wrapper">
-          Ariana Grande
+          Freddy Krueger
         </div>
       </div>
       <CountdownTimer/>
