@@ -28,9 +28,7 @@ class Discount extends Component {
       <div className="center_wrapper">
         <div className="discount_wrapper">
           <Slide left>
-            <Fade
-              onReveal={() => this.percentage()}
-            >
+            <Fade onReveal={() => this.percentage()}>
               <div className="discount_percentage">
                 <span>{this.state.discountStart}%</span>
                 <span>OFF</span>
@@ -52,7 +50,7 @@ class Discount extends Component {
                   link="http://google.com"
                   target="_blank"
                 />
-          </div>
+              </div>
             </div>
           </Slide>
 
